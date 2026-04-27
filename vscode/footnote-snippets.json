@@ -1,0 +1,32 @@
+{
+  "Footnote - Book": {
+    "prefix": ["fn", "fnbook"],
+    "body": "^[${1:First Last}, *${2:Title}* (${3:City}: ${4:Publisher}, ${5:Year}), ${6:page}.]",
+    "description": "Turabian footnote — book, single author: First Last, *Title* (City: Publisher, Year), page."
+  },
+  "Footnote - Subsequent Citation": {
+    "prefix": ["fns"],
+    "body": "^[${1:Last}, *${2:Short Title}*, ${3:page}.]",
+    "description": "Turabian footnote — subsequent: Last, *Short Title*, page."
+  },
+  "Footnote - Ibid": {
+    "prefix": ["fnibid", "ibid"],
+    "body": "^[Ibid.]",
+    "description": "Turabian footnote — ibid, same book and page"
+  },
+  "Footnote - Ibid with Page": {
+    "prefix": ["fnibidp"],
+    "body": "^[Ibid., ${1:page}.]",
+    "description": "Turabian footnote — ibid with new page number"
+  },
+  "Footnote - Journal Article": {
+    "prefix": ["fnj", "fnjournal"],
+    "body": "^[${1:First Last}, \"${2:Article Title},\" *${3:Journal Name}* ${4:vol}, no. ${5:num} (${6:Year}): ${7:page}.]",
+    "description": "Turabian footnote — journal article"
+  },
+  "Footnote - Chapter in Edited Book": {
+    "prefix": ["fne", "fnedited"],
+    "body": "^[${1:First Last}, \"${2:Chapter Title},\" in *${3:Book Title}*, ed. ${4:Editor Name} (${5:City}: ${6:Publisher}, ${7:Year}), ${8:page}.]",
+    "description": "Turabian footnote — chapter in edited book"
+  }
+}

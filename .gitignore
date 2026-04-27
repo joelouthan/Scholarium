@@ -1,0 +1,12 @@
+# Compiled output
+*.docx
+
+# Personal bibliography — manage with Zotero/Better BibTeX, do not commit
+*.bib
+
+# macOS
+.DS_Store
+
+# Reference files you supply yourself (see reference/README)
+reference/*.docx
+reference/*.csl
