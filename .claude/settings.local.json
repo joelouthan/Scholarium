@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(gh release create v0.0.1 --title 'v0.0.1 — Initial Release' --body ' *)",
+      "Bash(brew list *)",
+      "Bash(gh release create v0.0.1 --title 'v0.0.1 — Initial Release' --notes ' *)"
+    ]
+  }
+}
