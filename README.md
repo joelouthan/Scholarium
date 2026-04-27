@@ -30,7 +30,7 @@ The result is a properly formatted `.docx` ready for submission — cover page, 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/scholarium.git
+git clone git@github.com:joelouthan/Scholarium.git
 cd scholarium
 ```
 
